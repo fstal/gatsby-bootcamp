@@ -1,27 +1,26 @@
 import React from "react"
 import { Link } from "gatsby"
-
-const headerStyle = {
-  display: "flex",
-  justifyContent: "space-between",
-  alignItems: "center",
-}
-const menuStyle = {
-  width: "20vw",
-  display: "flex",
-  justifyContent: "space-evenly",
-}
+// import "./header.module.scss"
+import headerStyles from "./header.module.scss"
 
 const Header = () => {
   return (
-    <div style={headerStyle}>
+    <div className={headerStyles.container}>
       <h1>
-        <Link to="/">My Portfolio </Link>
+        <Link className={headerStyles.link} to="/">
+          My Portfolio
+        </Link>
       </h1>
-      <nav style={menuStyle}>
-        <Link to="/blog">Blog</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+      <nav className={headerStyles.menu}>
+        <Link className={headerStyles.link} to="/blog">
+          Blog
+        </Link>
+        <Link className={headerStyles.link} to="/about">
+          About
+        </Link>
+        <Link className={headerStyles.link} to="/contact">
+          Contact
+        </Link>
       </nav>
     </div>
   )

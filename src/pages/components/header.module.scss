@@ -1,0 +1,20 @@
+.link {
+  color: rgba(29, 29, 29, 0.6);
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  width: 20vw;
+  display: flex;
+  justify-content: space-evenly;
+
+  &-item {
+    text-decoration: none;
+  }
+}

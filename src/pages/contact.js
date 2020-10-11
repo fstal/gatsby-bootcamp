@@ -11,7 +11,11 @@ const Contact = () => {
         <li>Phone: 012 123 12 12</li>
         <li>
           linked in:
-          <a target="_blank" href="https://www.linkedin.com/in/filip-stal/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/filip-stal/"
+          >
             Filip Stål
           </a>
         </li>
