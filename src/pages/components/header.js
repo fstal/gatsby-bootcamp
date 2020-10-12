@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import headerStyles from "./header.module.scss"
 
 const Header = () => {
+  //console.log(headerStyles)
   return (
     <div className={headerStyles.container}>
       <h1>
@@ -12,13 +13,32 @@ const Header = () => {
         </Link>
       </h1>
       <nav className={headerStyles.menu}>
-        <Link className={headerStyles.link} to="/blog">
+        <Link
+          className={headerStyles.link}
+          activeClassName={headerStyles.linkActive}
+          to="/"
+        >
+          Home
+        </Link>
+        <Link
+          className={headerStyles.link}
+          activeClassName={headerStyles.linkActive}
+          to="/blog"
+        >
           Blog
         </Link>
-        <Link className={headerStyles.link} to="/about">
+        <Link
+          className={headerStyles.link}
+          activeClassName={headerStyles.linkActive}
+          to="/about"
+        >
           About
         </Link>
-        <Link className={headerStyles.link} to="/contact">
+        <Link
+          className={headerStyles.link}
+          activeClassName={headerStyles.linkActive}
+          to="/contact"
+        >
           Contact
         </Link>
       </nav>
