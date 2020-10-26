@@ -1,6 +1,6 @@
 ---
-title: "Gatsby Bootcamp"
-date: "2020-10-26"
+title: 'Gatsby Bootcamp'
+date: '2020-10-26'
 ---
 
 Here's whats included in the bootcamp!
