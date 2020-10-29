@@ -5,6 +5,8 @@ date: '2020-10-26'
 
 Here's whats included in the bootcamp!
 
+![Gatsby](./gatsby-photo.jpg)
+
 ## Topics covered
 
 1. Gatsby
