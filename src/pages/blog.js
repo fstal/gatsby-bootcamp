@@ -18,8 +18,6 @@ const BlogPage = () => {
     }
   `)
 
-  console.log(data)
-
   return (
     <Layout>
       <h1>My Blog</h1>
